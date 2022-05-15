@@ -41,7 +41,6 @@ class SpringdatajpaApplicationTests {
 		product.setPrice(100);
 		restTemplate.put("http://localhost:8080/products/", product);
 
-
 	}
 
 }
