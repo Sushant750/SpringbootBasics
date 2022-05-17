@@ -35,6 +35,7 @@ public class ProductController {
         return productRepository.save(product);
     }
 
+
     @PutMapping("/products/")
     public Product updateProduct(@RequestBody Product product){
         LOG.info("Updating product details with id{}", product.getId());
